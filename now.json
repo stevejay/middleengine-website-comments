@@ -1,0 +1,24 @@
+{
+  "name": "middleengine-website-comments",
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.*",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/octomments/issue",
+      "dest": "/api/issue.js"
+    },
+    {
+      "src": "/octomments/token",
+      "dest": "/api/token.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api/noop.js"
+    }
+  ]
+}

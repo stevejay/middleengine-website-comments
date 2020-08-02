@@ -1,0 +1,35 @@
+{
+  "_from": "octomments-server@latest",
+  "_id": "octomments-server@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-TxyaGb4bWxAzfoM5GDQhy5V4Z6xL1G0NXfar1FsymLPt3+088myuOwgQLzQLgdTdBL7EY3YdgdANr6xQNVj63w==",
+  "_location": "/octomments-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "octomments-server@latest",
+    "name": "octomments-server",
+    "escapedName": "octomments-server",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/octomments-server/-/octomments-server-1.0.4.tgz",
+  "_shasum": "882c5f78f90271138f1b52636b5f0d1aff8dffe6",
+  "_spec": "octomments-server@latest",
+  "_where": "/Users/stephenjohns/project/middleengine-website-comments",
+  "bundleDependencies": false,
+  "dependencies": {
+    "micro": "9.3.4",
+    "micro-cors": "0.1.1",
+    "superagent": "5.2.1"
+  },
+  "deprecated": false,
+  "name": "middleengine-website-comments",
+  "version": "0.1.0",
+  "private": true
+}
